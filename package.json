@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/egraff91/FormationRN/issues"
   },
-  "homepage": "https://github.com/egraff91/FormationRN#readme"
+  "homepage": "https://github.com/egraff91/FormationRN#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
 }
