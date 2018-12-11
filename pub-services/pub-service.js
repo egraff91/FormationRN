@@ -3,7 +3,6 @@ var moment = require('moment');
 function getPubs (json){
     var result = []
     for(var i= 0; i< json.length; ++i){
-        //console.log(json[i].name)
         result[i] = json[i].name
     }
     return result
@@ -20,7 +19,6 @@ function getOpenBar(json){
     }
     return result;
 }
-
 
 module.exports = {
     getPubs: getPubs,
