@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Arawak",
+        "owner": {
+            "firstName": "Nicolas",
+            "lastName": "Hodicq",
+            "mail": "nhodicq@bewizyu.com"
+        },
+        "openDays": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "openHours": {
+            "start": 10,
+            "end": 1
+        },
+        "beers": [
+            {
+                "type": "Blonde",
+                "name": "Triple Karmeliet"
+            }
+        ]
+    },
+    {
+        "name": "Bar",
+        "owner": {
+            "firstName": "Toto",
+            "lastName": "Tutu",
+            "mail": "toto.tutu@mail.com"
+        },
+        "openDays": [
+            "Friday",
+            "Saturday"
+        ],
+        "openHours": {
+            "start": 9,
+            "end": 2
+        },
+        "vines": [
+            {
+                "type": "Rouge",
+                "name": "Bordeaux"
+            }
+        ] 
+    }
+]
