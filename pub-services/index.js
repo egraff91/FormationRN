@@ -1,5 +1,4 @@
-var pubService = require('./pub-services/pub-service');
-//var json = require('./mocks/pubs.json')
+var pubService = require('./services/pub-service');
 
 module.exports = {
     services:{
@@ -7,5 +6,3 @@ module.exports = {
     }
 }
 
-//console.log(service.getPubs(json));
-//console.log(service.getOpenBar(json));

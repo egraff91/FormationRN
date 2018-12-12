@@ -1,14 +1,16 @@
 var moment = require('moment');
+var json = require('../mocks/pubs.json');
 
-function getPubs (json){
+function getPubs (){
     var result = []
     for(var i= 0; i< json.length; ++i){
         result[i] = json[i].name
     }
+    console.log(result);
     return result
 }
 
-function getOpenBar(json){
+function getOpenBar(){
     var result = []
     for(var i= 0; i< json.length; ++i){
         for (var j = 0; j<json[i].openDays.length; ++j){
@@ -17,6 +19,7 @@ function getOpenBar(json){
             }
         }
     }
+    console.log(result);
     return result;
 }
 
